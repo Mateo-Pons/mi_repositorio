@@ -1,0 +1,42 @@
+.nav{
+    grid-area: nav;
+    background-color: rgb(77, 34, 2);
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.nav ul li {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    padding: 5px;
+}
+.nav ul :hover{
+    color: white;
+    background-color: rgba(185, 68, 0, 0.959);
+    transition: 0.4s ease;
+}
+.nav ul li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px; 
+    background-color: rgba(131, 63, 0, 0.755);
+    
+}
+.nav ul li button{
+    width: 65px;
+    height: 30px;
+}
+.carrito{
+    width: 55px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}

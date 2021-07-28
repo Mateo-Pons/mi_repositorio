@@ -1,0 +1,130 @@
+.encabezado {
+  grid-area: header;
+  background-color: #682e0d;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 40px; }
+
+.encabezado h1 {
+  display: flex;
+  justify-content: center; }
+
+.nav {
+  grid-area: nav;
+  background-color: #4d2202; }
+
+.nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black; }
+
+.nav ul li {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+  padding: 5px; }
+
+.nav ul :hover {
+  color: white;
+  background-color: rgba(185, 68, 0, 0.959);
+  transition: 0.4s ease; }
+
+.nav ul li a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgba(131, 63, 0, 0.755); }
+
+.nav ul li button {
+  width: 65px;
+  height: 30px; }
+
+.carrito {
+  width: 55px;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+.section {
+  grid-area: section;
+  grid-column: span 3;
+  background-color: #85593f;
+  width: 100%; }
+
+.section div {
+  display: flex;
+  margin-top: 20px; }
+
+.section div a {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.713); }
+
+#contacto {
+  align-items: center;
+  text-align: center; }
+
+.contenedorfooter {
+  grid-area: footer;
+  background-color: #212329;
+  padding-bottom: 25px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.footer {
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border: 2px solid white; }
+
+.uno, .dos, .tres {
+  display: flex;
+  flex-direction: column;
+  margin-right: 7rem; }
+
+.uno, .dos, .tres {
+  margin-bottom: 40px; }
+
+.contenedorfooter div a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500; }
+
+.contenedorfooter div a:hover {
+  color: red;
+  transition: 0.3s ease-out; }
+
+/*Estilo*/
+.section img {
+  height: 150px;
+  width: 200px; }
+
+.destacados {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 12px; }
+
+.submit {
+  width: 230px;
+  height: 25px; }
+
+.submit:hover {
+  font-weight: 400;
+  color: black;
+  background-color: #85593f;
+  transition: 1.5s ease; }
+
+textarea {
+  resize: none; }

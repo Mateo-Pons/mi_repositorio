@@ -1,0 +1,22 @@
+.section{
+    grid-area: section;
+    grid-column: span 3;
+    background-color: #85593f;
+    width: 100%;
+}
+.section div{
+    
+    display: flex;
+    margin-top:20px ;
+
+}
+
+.section div a {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.713)
+    ;
+}
+#contacto{
+    align-items: center;
+    text-align: center;
+}

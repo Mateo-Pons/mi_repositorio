@@ -1,0 +1,12 @@
+.encabezado{
+    grid-area: header;   
+    background-color: #682e0d;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 40px;
+}
+.encabezado h1{
+    display: flex;
+    justify-content: center;
+}
