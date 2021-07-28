@@ -1,12 +1,23 @@
+
+body{
+    font-family: $font;
+}
+
 .encabezado{
     grid-area: header;   
-    background-color: #682e0d;
+    background-color: $color1;
     font-family: 'Merriweather', serif;
     text-align: center;
-    letter-spacing: 6px;
-    font-size: 40px;
-}
-.encabezado h1{
+    letter-spacing: 10px;
+    height: 150px;
     display: flex;
+    align-items: center;
     justify-content: center;
+            h1{
+            display: flex;
+            justify-content: center;
+            color: whitesmoke;
+            font-size: 72px;
+            font-weight: 1000;
+    }
 }

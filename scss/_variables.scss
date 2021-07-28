@@ -1,0 +1,21 @@
+/*Colores*/
+
+$color1 : #2a0000;
+$color2 : #582417;
+$color3 : #8d4925;
+$color4 : #c57d56;
+$color5 : #ffb48a;
+
+
+$font : 'Roboto', sans-Serif;
+
+$fondo: true;
+
+
+/*@include size(Valores)*/
+@mixin size ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+
