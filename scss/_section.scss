@@ -102,3 +102,18 @@
     height: 80px;
     width: 150px;
 }
+
+
+.carousel-indicators{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.carousel-item{
+    width: 100%;
+    img{
+        height: 400px;
+        width: 300px;
+    }
+}

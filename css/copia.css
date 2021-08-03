@@ -1,7 +1,8 @@
 /*Colores*/
 /*@include size(Valores)*/
 body {
-  font-family: "Roboto", sans-Serif; }
+  font-family: "Roboto", sans-Serif;
+  background-color: #582417; }
 
 .encabezado {
   grid-area: header;
@@ -20,6 +21,34 @@ body {
     font-size: 72px;
     font-weight: 1000; }
 
+.container-fluid {
+  background-color: #8d4925;
+  margin: 0;
+  height: 5rem;
+  width: 100%;
+  font-weight: 800;
+  font-family: "Roboto", sans-Serif; }
+  .container-fluid .navbar-brand:hover {
+    background-color: #ffb48a;
+    border-radius: 25px;
+    transition: ease 1s; }
+  .container-fluid .nav-item {
+    margin: 3rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: "Roboto", sans-Serif; }
+    .container-fluid .nav-item:hover {
+      background-color: #ffb48a;
+      border-radius: 25px;
+      transition: ease 1s; }
+
+.btn {
+  color: #2a0000; }
+  .btn:hover {
+    background-color: #582417;
+    transition: ease 3s; }
+
+/*---------------------------------------------------------------------------------------*/
 .navegador {
   grid-area: nav;
   background-color: #582417; }
@@ -150,6 +179,18 @@ body {
   height: 80px;
   width: 150px; }
 
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.carousel-item {
+  width: 100%; }
+  .carousel-item img {
+    height: 400px;
+    width: 300px; }
+
 .contenedorfooter {
   grid-area: footer;
   background-color: #212329;
@@ -206,3 +247,5 @@ textarea {
 
 .fab {
   color: #c57d56; }
+  .fab:hover {
+    color: lightblue; }

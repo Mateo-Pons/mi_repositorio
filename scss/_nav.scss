@@ -1,3 +1,37 @@
+
+.container-fluid{
+    background-color: $color3;
+    margin: 0;
+    height: 5rem;
+    width: 100%;
+    font-weight: 800;
+    font-family: $font;
+    .navbar-brand:hover{
+        background-color: $color5;
+        border-radius: 25px;
+        transition: ease 1s;
+    }
+    .nav-item{
+    margin: 3rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: $font;
+    &:hover{
+        background-color: $color5;
+        border-radius: 25px;
+        transition: ease 1s;
+        }
+    }
+
+}
+.btn{
+    color: $color1;
+    &:hover{
+    background-color: $color2;
+    transition: ease 3s;
+    }
+}
+/*---------------------------------------------------------------------------------------*/
 .navegador{
     grid-area: nav;
     background-color: $color2;

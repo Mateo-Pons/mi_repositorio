@@ -20,25 +20,45 @@
 <body>
     <div class="contenedor">
 <!---------------------------------- HEADER --------------------------->   
-    <header>
-        <div class="encabezado">
-            <h1>CoffeeEmotions Store</h1>
-        </div>
-    </header>    
+<header>
+  <div class="encabezado">
+      <img src="../imagenes/cafestore.png" class="cafestore"><h1>CoffeeEmotions Store</h1><img src="../imagenes/cafestore.png" class="cafestore">
+  </div>
+</header>  
 <!------------------------------------- NAV --------------------------------> 
-    <nav>       
-        <div class="navegador">
-            <ul>
-                <li><a href="../index.html" alt="Home">Home</a></li>
-                <li><a href="../html/productos.html" alt="Productos">Productos</a></li>
-                <li><a href="../html/contacto.html" alt="Contacto">Contacto</a></li>
-                <li><a href="../html/marcas.html" alt="Marcas">Marcas</a></li>
-                <li><button href="../login.html" alt="Login">Log In</button></li>
-                <li><button href="../login.html" alt="Login">Create Account</button></li>
-                <a href="../html/login.html"><img class="carrito" src="../imagenes/carrito.png"></a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../html/productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/marcas.html">Marcas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../html/login.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ¡Queres unirte?
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../html/login.html">Ingresar</a></li>
+              <li><a class="dropdown-item" href="../html/login.html">Crear Cuenta</a></li>
+              <li><hr class="dropdown-divider"></li>
             </ul>
-        </div>
-    </nav>             
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Que busca?" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>          
 <!------------------------------------- SECTION -------------------------------->
     <section>  
         <div class="section_contacto">

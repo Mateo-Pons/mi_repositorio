@@ -21,25 +21,45 @@
 <body class="bg-dark" >
   <div class="contenedor">
 <!---------------------------------- HEADER --------------------------->
-    <!-- <div class="encabezado">
-        <h1>CoffeeEmotions Store</h1>
-    </div> -->
+<header>
+  <div class="encabezado">
+      <img src="../imagenes/cafestore.png" class="cafestore"><h1>CoffeeEmotions Store</h1><img src="../imagenes/cafestore.png" class="cafestore">
+  </div>
+</header>
 <!------------------------------------- NAV -------------------------------->    
-<section>
-  <div class="row">
-    <div class="col-lg-7">
-    
-    </div>
-    <div class="col-lg-5">
-      <div>
-        <img src="../imagenes/cafestore.png" class="img-fluid" alt="">
-      </div>
-      <div>
-        <h1 class="text-light"> Bienvenido a TheCoffeeStore Log IN!</h1>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../html/productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../html/marcas.html">Marcas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../html/contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="../html/login.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ¡Queres unirte?
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="../html/login.html">Ingresar</a></li>
+            <li><a class="dropdown-item" href="../html/login.html">Crear Cuenta</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Que busca?" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
     </div>
   </div>
-</section>
+</nav>
 
 <!------------------------------------- FOOTER -------------------------------->   
 <!-- <div class="contenedorfooter">

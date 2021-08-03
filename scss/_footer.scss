@@ -62,4 +62,7 @@ textarea{
 }
 .fab{
     color: $color4;
+    &:hover{
+        color:lightblue;
+    }
 }
