@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Keywords -->
     <meta name="keywords" content="consumo, cafe, coffee, emociones, amargo, dulce, miel, sitio, venta, productos, placer, viaje">
-    <title><img src="../mi_repositorio/imagenes/coffeebeans.png"><h1>Coffeestore</h1></title>
+    <!-- Icono Favicon -->
+    <link rel="icon" href="imagenes/coffeebeans.ico">
+    <title>Coffeestore</title>
+
     <meta name="description" content="CoffeeStore Emotions es una pagina donde somos amantes del cafe. Nos ocupamos de llevartelo y que disfrutes de lo que nosotros tanto amamos.">
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -32,35 +35,37 @@
       </header>
 <!------------------------------------- NAV -------------------------------->  
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="nav sticky-top navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link active" aria-current="page" href="#">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Marcas</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Quieres unirte?
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="html/login.html">Ingresar</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="html/login.html">Crear Cuenta</a></li> 
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
       </ul>
+      
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-light" type="submit">Search</button>
       </form>
     </div>
   </div>

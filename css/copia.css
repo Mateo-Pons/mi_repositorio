@@ -33,6 +33,7 @@ nav {
   padding: 0 !important;
   box-sizing: border-box; }
   nav .container-fluid {
+    border-radius: 10px;
     background-color: #430d06;
     margin: 0;
     height: 4.5rem; }
@@ -40,8 +41,7 @@ nav {
       margin: 3rem;
       font-size: 1.4rem;
       font-weight: 800;
-      font-family: "Roboto", sans-Serif;
-      color: white; }
+      font-family: "Roboto", sans-Serif; }
       nav .container-fluid .nav-item:hover {
         background-color: #ffb48a;
         border-radius: 25px;
@@ -51,7 +51,7 @@ nav {
   background-color: #ffb48a; }
 
 .btn {
-  color: #2a0000; }
+  color: #8d4925; }
   .btn:hover {
     background-color: #582417;
     transition: ease 3s; }
