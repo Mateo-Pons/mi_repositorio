@@ -1,29 +1,28 @@
-
-.container-fluid{
-    background-color: $color3;
+nav{
     margin: 0;
-    height: 5rem;
-    width: 100%;
-    font-weight: 800;
-    font-family: $font;
-    .navbar-brand:hover{
-        background-color: $color5;
-        border-radius: 25px;
-        transition: ease 1s;
-    }
-    .nav-item{
-    margin: 3rem;
-    font-size: 1.3rem;
-    font-weight: 800;
-    font-family: $font;
-    &:hover{
-        background-color: $color5;
-        border-radius: 25px;
-        transition: ease 1s;
+    padding: 0 !important;
+    box-sizing: border-box;
+    .container-fluid{
+        background-color: $color6;
+        margin: 0;
+        height: 4.5rem;
+        .nav-item{
+            margin: 3rem;
+            font-size: 1.4rem;
+            font-weight: 800;
+            font-family: $font;
+            color: white;
+            &:hover{
+                background-color: $color5;
+                border-radius: 25px;
+                transition: ease 1s;
+                }
+            }
         }
     }
-
-}
+    .dropdown-menu{
+        background-color: $color5;
+    }
 .btn{
     color: $color1;
     &:hover{
