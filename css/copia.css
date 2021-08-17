@@ -112,21 +112,45 @@ nav {
 /*-----------------------------Index----------------------------------------*/
 #container {
   background-color: #ffb48a; }
-
-.news h1 {
-  margin: 10px;
-  border: 1px solid black;
-  border-radius: 6px;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 1000;
-  height: 40px; }
-
-.accordion {
-  margin: 0; }
-
-.accordion-button {
-  background-color: #c57d56; }
+  #container .news h1 {
+    margin: 1rem;
+    border: 3px solid black;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 1000;
+    height: 40px; }
+    #container .news h1:hover {
+      background-color: #8d4925;
+      transition: 1s ease-out; }
+  #container .news .accordion {
+    margin: 0 auto;
+    margin-left: 20px; }
+    #container .news .accordion .accordion-button {
+      background-color: #c57d56;
+      font-family: "Roboto", sans-Serif;
+      font-weight: 900; }
+      #container .news .accordion .accordion-button:hover {
+        color: #06e992; }
+    #container .news .accordion .accordion-body {
+      background-color: #582417;
+      font-family: "Roboto", sans-Serif;
+      font-weight: 500;
+      font-size: 1rem;
+      color: white; }
+      #container .news .accordion .accordion-body .tit {
+        font-weight: 1100;
+        color: #06e992;
+        font-size: 1.2rem; }
+  #container #carouselExampleCaptions {
+    margin: 1.2rem; }
+    #container #carouselExampleCaptions .carousel-inner {
+      border: 3px solid black;
+      border-radius: 6px; }
+      #container #carouselExampleCaptions .carousel-inner h5, #container #carouselExampleCaptions .carousel-inner p {
+        color: white;
+        font-weight: 800;
+        font-size: 1.2rem; }
 
 /*-----------------------------Contacto----------------------------------------*/
 .section_contacto {

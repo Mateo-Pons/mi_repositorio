@@ -2,27 +2,62 @@
 /*-----------------------------Index----------------------------------------*/
 #container{
     background-color: $color5;
-    
-
-}
-.news{
+    .news{
     h1{
-        margin: 10px;
-        border: 1px solid black;
+        margin: 1rem;
+        border: 3px solid black;
         border-radius: 6px;
         text-align: center;
         font-size: 25px;
         font-weight: 1000;
         height: 40px;
+        &:hover{
+            background-color: $color3;
+            transition: 1s ease-out;
+            }
+        }
+        .accordion{
+            margin: 0 auto;
+            margin-left: 20px;
+            .accordion-button{
+                background-color: $color4;
+                font-family: $font;
+                font-weight: 900;
+                &:hover{
+                color: rgb(6, 233, 146);
+                }   
+            }
+            .accordion-body{
+                background-color: $color2;
+                font-family: $font;
+                font-weight: 500;
+                font-size: 1rem;
+                color: white;
+                .tit{
+                font-weight: 1100;
+                color: rgb(6, 233, 146);
+                font-size: 1.2rem;
+                }   
+            }
+        }            
+    }
+    #carouselExampleCaptions{
+        margin:1.2rem;
+        .carousel-inner{
+        border: 3px solid black;
+        border-radius: 6px;
+        h5, p{
+        color: white;
+        font-weight: 800;
+        font-size: 1.2rem;
+            }
+        }
     }
 }
-.accordion{
-    margin  : 0;
 
-}
-.accordion-button{
-    background-color: $color4;
-}
+
+
+
 
 
 
