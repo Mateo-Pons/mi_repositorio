@@ -1,3 +1,7 @@
+.imagen{
+    display: inline-block;
+    font-size: 5px;
+}
 .encabezado{
     background-color: $color1;
     font-family: 'Merriweather', serif;
@@ -14,16 +18,16 @@
             font-size: 50px;
             margin: 0 3rem;
             color: $color4;
-        }
+            }
             .titulo{
                 text-decoration: none !important;
             }
-        h1{
-        text-decoration: none !important;
-        display: flex;
-        justify-content: center;
-        color: whitesmoke;
-        font-size: 65px;
-        font-weight: 1000;
+            h1{
+            text-decoration: none !important;
+            display: flex;
+            justify-content: center;
+            color: whitesmoke;
+            font-size: 65px;
+            font-weight: 1000;
+        }
     }
-}

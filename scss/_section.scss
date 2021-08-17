@@ -1,6 +1,28 @@
 
 /*-----------------------------Index----------------------------------------*/
+#container{
+    background-color: $color5;
+    
 
+}
+.news{
+    h1{
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 6px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 1000;
+        height: 40px;
+    }
+}
+.accordion{
+    margin  : 0;
+
+}
+.accordion-button{
+    background-color: $color4;
+}
 
 
 

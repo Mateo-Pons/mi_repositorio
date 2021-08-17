@@ -2,6 +2,10 @@
 /*Primer Paleta*/
 /*Segunda Paleta*/
 /*@include size(Valores)*/
+.imagen {
+  display: inline-block;
+  font-size: 5px; }
+
 .encabezado {
   background-color: #2a0000;
   font-family: 'Merriweather', serif;
@@ -31,9 +35,11 @@
 nav {
   margin: 0;
   padding: 0 !important;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #582417 !important; }
   nav .container-fluid {
-    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
     background-color: #430d06;
     margin: 0;
     height: 4.5rem; }
@@ -46,15 +52,29 @@ nav {
         background-color: #ffb48a;
         border-radius: 25px;
         transition: ease 1s; }
+      nav .container-fluid .nav-item a {
+        color: white !important; }
 
 .dropdown-menu {
-  background-color: #ffb48a; }
+  background-color: #ffb48a;
+  color: black; }
+  .dropdown-menu .dropdown-item {
+    color: black !important; }
+    .dropdown-menu .dropdown-item:hover {
+      background-color: #06e992; }
+
+.icono {
+  margin-left: 10px;
+  color: #ffb48a;
+  font-size: 25px;
+  width: 55px; }
 
 .btn {
+  background-color: white;
   color: #8d4925; }
   .btn:hover {
     background-color: #582417;
-    transition: ease 3s; }
+    transition: ease 2s; }
 
 /*---------------------------------------------------------------------------------------*/
 .navegador {
@@ -89,13 +109,25 @@ nav {
         .navegador ul li button:hover {
           background-color: #ffb48a; }
 
-.carrito {
-  width: 55px;
-  height: 100%;
-  padding: 0;
+/*-----------------------------Index----------------------------------------*/
+#container {
+  background-color: #ffb48a; }
+
+.news h1 {
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 1000;
+  height: 40px; }
+
+.accordion {
   margin: 0; }
 
-/*-----------------------------Index----------------------------------------*/
+.accordion-button {
+  background-color: #c57d56; }
+
 /*-----------------------------Contacto----------------------------------------*/
 .section_contacto {
   margin: 0;

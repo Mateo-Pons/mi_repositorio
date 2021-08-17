@@ -2,8 +2,11 @@ nav{
     margin: 0;
     padding: 0 !important;
     box-sizing: border-box;
-    .container-fluid{
-        border-radius: 10px;   
+    background-color: $color2 !important;
+
+    .container-fluid{   
+        border: 1px solid black;
+        border-radius: 6px;
         background-color: $color6;
         margin: 0;
         height: 4.5rem;
@@ -18,18 +21,37 @@ nav{
                 border-radius: 25px;
                 transition: ease 1s;
                 }
+                a{
+                color: white !important;
+                }
             }
         }
     }
     .dropdown-menu{
         background-color: $color5;
+        color: black;
+        .dropdown-item{
+            color: black !important;
+        &:hover{
+            background-color: rgb(6, 233, 146);
+            }
+        }
     }
-.btn{
 
+    .icono{
+     margin-left: 10px;
+     color: $color5;
+     font-size: 25px;
+     width: 55px;   
+    }
+
+
+.btn{
+    background-color: white;
     color: $color3;
     &:hover{
     background-color: $color2;
-    transition: ease 3s;
+    transition: ease 2s;
     }
 }
 /*---------------------------------------------------------------------------------------*/
@@ -70,10 +92,4 @@ nav{
             }
         }
     }
-}
-.carrito{
-    width: 55px;
-    height: 100%;
-    padding: 0;
-    margin: 0;
 }
