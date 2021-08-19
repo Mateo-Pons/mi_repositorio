@@ -1,21 +1,17 @@
-.imagen{
-    display: inline-block;
-    font-size: 5px;
-}
 .encabezado{
+    box-shadow: 0 0 25px black;
     background-color: $color1;
     font-family: 'Merriweather', serif;
     text-align: center;
     letter-spacing: 8px;
-    height: 155px;
+    height: 9.5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
         .cafestore{
             display: flex;
             justify-content: center;
-            color: white;
-            font-size: 50px;
+            font-size: 3rem;
             margin: 0 3rem;
             color: $color4;
             }
@@ -27,7 +23,40 @@
             display: flex;
             justify-content: center;
             color: whitesmoke;
-            font-size: 65px;
+            font-size: 3.3rem;
             font-weight: 1000;
         }
     }
+/*-----------------------------Queries----------------------------------------*/
+
+@media (max-width:992px){
+    .encabezado{
+        letter-spacing: 2px;
+        .cafestore{
+            font-size: 2.3rem;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            color: whitesmoke;
+            font-size: 2.8rem;
+            font-weight: 1000;
+        }
+    }
+}
+
+@media (max-width:645px){
+    .encabezado{
+        letter-spacing: none;
+        .cafestore{
+            position:relative;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            color: whitesmoke;
+            font-size: 3.3rem;
+            font-weight: 1000;
+        }
+    }
+}

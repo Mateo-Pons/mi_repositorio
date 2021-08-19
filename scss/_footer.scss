@@ -1,68 +1,101 @@
-.contenedorfooter{
-    grid-area: footer;
-    background-color: #212329;
-    padding-bottom: 25px;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-        @if $fondo == true {
-            background-color: $color1;}
-            @else { 
-                background-color: $color5;
-            }
-        
-        div a {
-            color: white;
-            text-decoration: none;
-            margin-bottom: 12px;
-            font-size: 15px;
-            font-weight: 500;
-            &:hover {
-                color: red;
-                transition: 0.3s ease-out;
-            }
-    } 
-}
+
 .footer{
-    width: 100%;
-    height: 60vh;
-    background-color: black;
-    color: whitesmoke;  
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    border: 2px solid white;
-}
-.uno ,.dos ,.tres{
-    display: flex;
-    flex-direction: column;
-    margin-right: 10rem;
-    margin-bottom: 40px;
-    margin-top: 25px;
-}
-/*Estilo*/
-.destacados{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 12px;
-}
-.submit{
-    width: 230px;
-    height: 25px;
-        &:hover{
-        font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .container{
+        max-width: 1170px;
+        margin: 50px auto;
+        background-color: $color6;
+        .row{
+            box-shadow: 0 0 25px black;
+            display: flex;
+            flex-wrap: wrap;
+            .footer-col{
+                width: 33%;
+                padding: 15px 20px;
+                ul{
+                    list-style: none;
+                    text-decoration: none;
+                    margin: 15px 0 0 0;
+                    padding: 0;
+                    font-family: $font;
+                li{
+                    margin-bottom: 8px;
+                    a{
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                    color: white;
+                    text-decoration: none;
+                    list-style: none;
+                    &:hover{
+                        padding-left: 8px;
+                        transition: all 0.5s ease;
+                        color: #ce6e00;
+                            }
+                        }
+                    }
+                }
+                h4{
+                font-family: $font;
+                font-size: 1.3rem;
+                color: #ffffff;
+                text-transform: capitalize;
+                margin: 10px 0;
+                font-weight: 900;
+                position: relative;
+                }
+                .social-links{
+                    display: flex;
+                    flex-direction: column;
+                    a{    
+                    text-decoration: none;
+                    margin: 10px 0 ;
+                    padding: 0;
+                    font-family: $font;
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                    color: white;
+                    &:hover{
+                        padding-left: 8px;
+                        transition: all 0.5s ease;
+                        color: #ce6e00;
+                            }
+                    i{
+                    color: white;
+                    font-size: 1.3rem;
+                    margin-left: 10%;
+                        &:hover{
+                            color: lightblue;
+                                }
+                            }            
+                        }
+                    }
+                h4::before{
+                content:"";
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                background-color: #c08009;
+                height: 2px;
+                box-sizing: border-box;
+                width: 40%; /*CAMBIO DE RENGLON FOOTER*/
+                }
+            } 
+        }
+    }
+    .cr{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: $color4;
+    h2,h3,a{
+        margin: 10px 10px;
         color: black;
-        background-color: #85593f;
-        transition: 1.5s ease;
+        font-size: 1rem;
+        font-weight: 600;
+        }
     }
-}
-textarea{
-    resize: none;
-}
-.fab{
-    color: $color4;
-    &:hover{
-        color:lightblue;
-    }
+
 }

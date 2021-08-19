@@ -3,10 +3,9 @@ nav{
     padding: 0 !important;
     box-sizing: border-box;
     background-color: $color2 !important;
+    box-shadow: 0 0 25px black;
 
-    .container-fluid{   
-        border: 1px solid black;
-        border-radius: 6px;
+    .container-fluid{  
         background-color: $color6;
         margin: 0;
         height: 4.5rem;
@@ -55,41 +54,3 @@ nav{
     }
 }
 /*---------------------------------------------------------------------------------------*/
-.navegador{
-    grid-area: nav;
-    background-color: $color2;
-    ul{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        border: 1px solid black;
-        margin: 0;
-        :hover{
-            color: black;
-            background-color: $color4;
-            transition: 0.6s ease;
-            border-radius: 5px;
-        }
-        li {
-            display: inline-block;
-            color: white;
-            text-decoration: none;
-            list-style-type: none;
-            list-style: none;
-            padding: 5px;
-            a{
-                color: white;
-                font-size: 30px;
-                font-weight: 600;
-                text-decoration: none;  
-            }
-            button{
-                width: 80px;
-                height: 50px;
-                &:hover{
-                    background-color: $color5;
-                }
-            }
-        }
-    }
-}
