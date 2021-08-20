@@ -28,6 +28,9 @@
         }
     }
 /*-----------------------------Queries----------------------------------------*/
+@media (max-width:1400px){
+    
+}
 
 @media (max-width:992px){
     .encabezado{
@@ -49,14 +52,13 @@
     .encabezado{
         letter-spacing: none;
         .cafestore{
-            position:relative;
+            display:relative;
+        }
+        .fasa{
+            display:none;
         }
         h1{
-            display: flex;
-            justify-content: center;
-            color: whitesmoke;
-            font-size: 3.3rem;
-            font-weight: 1000;
+            font-size: 2rem;
         }
     }
 }
