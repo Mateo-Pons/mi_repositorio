@@ -59,6 +59,19 @@
     }
 }
 
+/*------------------------------------------Queries---------------------------------------------*/
+
+@media (max-width:800px){
+    .fasb{
+        display: none;
+    }
+    .accordion{
+        margin-right: 10px !important;
+    }
+    .accordion-item{
+        margin: 10px auto;
+    }
+}
 
 
 
@@ -71,7 +84,7 @@
 
 
 /*-----------------------------Contacto----------------------------------------*/
-/* .section_contacto{
+ .section_contacto{
     margin: 0;
     background-color: $color3;
     opacity: initial;
@@ -100,9 +113,9 @@
         background-color: $color3;
         transition: 0.5s ease-out;
     }
-} */
+} 
 /*---------------------------------Productos----------------------------------------*/
-/* .table{
+ .table{
     margin: 20px;
 }
 .contenedor_table{
@@ -137,7 +150,7 @@
     background-color: $color4;
     display: flex;
     justify-content: center;
-} */
+} 
 /*---------------------------- Marcas ----------------------------------------*/
 /* .section_marcas{
     display: flex;

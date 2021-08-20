@@ -81,7 +81,7 @@
                 background-color: #c08009;
                 height: 2px;
                 box-sizing: border-box;
-                width: 40%; /*CAMBIO DE RENGLON FOOTER*/
+                width: 70%; /*CAMBIO DE RENGLON FOOTER*/
                 }
             } 
         }
@@ -106,8 +106,24 @@
     
 }
 
-@media (max-width:992px){
-    
+@media (max-width:770px){
+    .footer{
+        margin: auto;
+        width: 80%;
+        align-items: center;
+    .container{
+        background-color: $color1;
+        .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .footer-col{
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+                }
+            }
+        }
+    }   
 }
 
 @media (max-width:645px){
