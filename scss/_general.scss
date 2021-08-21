@@ -12,7 +12,17 @@ body{
 
 .contenedor{
     width: 90%;
-    margin: auto;
+    margin: 0 auto;
+}
+
+/*------------------------------------------Queries---------------------------------------------*/
+
+@media (max-width:440px){
+    .cr{
+    margin: 0 !important;  
+    padding: 0 !important;   
+    width: 100% !important;
+    }
 }
 
 

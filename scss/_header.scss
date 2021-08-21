@@ -59,6 +59,23 @@
         }
         h1{
             font-size: 2rem;
+            letter-spacing: none;
         }
     }
+}
+@media (max-width:440px){
+    .encabezado{
+        width: 100% !important;
+    }
+    .cafestore{
+        font-size: 1.2rem !important;
+        margin-left: 1rem !important;
+        padding-right: 0;
+        h1{
+            font-size: 1.4rem !important;
+            margin-left: 0 !important;
+            padding-right: 15px !important;
+        }
+    }
+
 }

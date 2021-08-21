@@ -49,7 +49,20 @@
     .encabezado .fasa {
       display: none; }
     .encabezado h1 {
-      font-size: 2rem; } }
+      font-size: 2rem;
+      letter-spacing: none; } }
+
+@media (max-width: 440px) {
+  .encabezado {
+    width: 100% !important; }
+  .cafestore {
+    font-size: 1.2rem !important;
+    margin-left: 1rem !important;
+    padding-right: 0; }
+    .cafestore h1 {
+      font-size: 1.4rem !important;
+      margin-left: 0 !important;
+      padding-right: 15px !important; } }
 
 nav {
   margin: 0;
@@ -140,30 +153,27 @@ nav {
           color: black; } }
 
 @media (max-width: 648px) {
-  button {
-    position: absolute;
-    margin: 0;
-    padding: 0; }
-  .container-fluid {
-    background-color: #c57d56; }
-    .container-fluid .collapse {
-      background-color: #ffb48a;
+  .navbar-toggler {
+    margin: 0 auto;
+    padding: 0 auto; }
+  .container-fluid .collapse {
+    background-color: #430d06;
+    border: 1px solid black;
+    border-radius: 2px;
+    max-width: 60%;
+    height: 550px; }
+    .container-fluid .collapse .nav-item {
       border: 1px solid black;
-      border-radius: 2px;
-      max-width: 60%;
-      height: 550px; }
-      .container-fluid .collapse .nav-item {
-        border: 2px solid black;
-        background-color: #c57d56;
-        border-radius: 10px;
-        text-align: center; }
-      .container-fluid .collapse .d-flex {
-        display: flex;
-        justify-content: center; }
-        .container-fluid .collapse .d-flex .form-control {
-          margin-left: 1rem; }
-        .container-fluid .collapse .d-flex i {
-          color: black; } }
+      background-color: #c57d56;
+      border-radius: 10px;
+      text-align: center; }
+    .container-fluid .collapse .d-flex {
+      display: flex;
+      justify-content: center; }
+      .container-fluid .collapse .d-flex .form-control {
+        margin-left: 1rem; }
+      .container-fluid .collapse .d-flex i {
+        color: black; } }
 
 /*-----------------------------Index----------------------------------------*/
 #container {
@@ -427,4 +437,11 @@ body {
 
 .contenedor {
   width: 90%;
-  margin: auto; }
+  margin: 0 auto; }
+
+/*------------------------------------------Queries---------------------------------------------*/
+@media (max-width: 440px) {
+  .cr {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important; } }
