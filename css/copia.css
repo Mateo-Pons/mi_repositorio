@@ -230,6 +230,70 @@ nav {
   .accordion-item {
     margin: 10px auto; } }
 
+/*---------------------------------Productos----------------------------------------*/
+.contenedor_table {
+  margin-top: 2rem;
+  background-color: #c57d56;
+  align-content: center;
+  justify-content: center;
+  align-items: center; }
+  .contenedor_table .valores {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; }
+    .contenedor_table .valores .table {
+      width: 60%; }
+  .contenedor_table .cartas {
+    background-color: #8d4925;
+    display: flex;
+    justify-content: space-around;
+    margin: 8px;
+    margin-bottom: 0; }
+    .contenedor_table .cartas .card {
+      margin: 15px;
+      background-color: #c57d56; }
+      .contenedor_table .cartas .card .card-title {
+        font-size: 1.5rem;
+        font-weight: 900;
+        background-color: #582417;
+        border-radius: 10%;
+        color: white; }
+      .contenedor_table .cartas .card .card-text {
+        font-size: 1.1rem;
+        font-weight: 600; }
+      .contenedor_table .cartas .card .btn {
+        background-color: #ffb48a;
+        color: black;
+        font-weight: 900;
+        font-size: 1.2rem; }
+        .contenedor_table .cartas .card .btn:hover {
+          background-color: #06e992; }
+
+.navigation {
+  background-color: #c57d56;
+  display: flex;
+  justify-content: center; }
+  .navigation .pagination {
+    margin-top: 7px; }
+    .navigation .pagination .page-item, .navigation .pagination .page-link {
+      background-color: #8d4925;
+      color: black;
+      font-weight: 900;
+      font-size: 1.2rem;
+      border: 0.1px solid #ffb48a; }
+      .navigation .pagination .page-item:hover, .navigation .pagination .page-link:hover {
+        background-color: #c57d56;
+        transition: 1s ease-in-out; }
+
+/*------------------------------------------Queries---------------------------------------------*/
+@media (max-width: 470px) {
+  .cartas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; } }
+
 /*-----------------------------Contacto----------------------------------------*/
 .section_contacto {
   margin: 0;
@@ -257,37 +321,6 @@ nav {
   .btn-default:hover {
     background-color: #8d4925;
     transition: 0.5s ease-out; }
-
-/*---------------------------------Productos----------------------------------------*/
-.table {
-  margin: 20px; }
-
-.contenedor_table {
-  background-color: #c57d56;
-  align-content: center;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .contenedor_table .productos_table {
-    border: 1px solid black;
-    border-radius: 5px;
-    align-content: center; }
-  .contenedor_table .cartas {
-    display: flex;
-    justify-content: space-around;
-    margin: 8px; }
-    .contenedor_table .cartas .card {
-      margin: 15px;
-      border: 3px solid grey;
-      border-radius: 5px; }
-      .contenedor_table .cartas .card .card-body a {
-        display: flex;
-        align-items: flex-end; }
-
-.navigation {
-  background-color: #c57d56;
-  display: flex;
-  justify-content: center; }
 
 /*---------------------------- Marcas ----------------------------------------*/
 /* .section_marcas{

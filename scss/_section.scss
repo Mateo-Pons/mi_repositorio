@@ -73,6 +73,107 @@
     }
 }
 
+/*---------------------------------Productos----------------------------------------*/
+.contenedor_table{
+    margin-top: 2rem;
+    background-color: $color4;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    .valores{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        .table{
+        width: 60%;
+        }
+    }
+
+    .cartas{
+        background-color: $color3;
+        display: flex;
+        justify-content: space-around;
+        margin: 8px;
+        margin-bottom: 0;
+        .card{
+            margin: 15px;
+            background-color: $color4;
+            .card-title{
+                font-size: 1.5rem;
+                font-weight: 900;
+                background-color: $color2;
+                border-radius: 10%;
+                color: white;
+            }
+            .card-text{
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+            .btn{
+            background-color: $color5;
+            color: black;
+            font-weight: 900;
+            font-size: 1.2rem;
+            &:hover{
+                background-color: rgb(6, 233, 146);
+                    }
+                }         
+            }
+        }   
+    }
+    
+.navigation{
+    background-color: $color4;
+    display: flex;
+    justify-content: center;
+    .pagination{
+        margin-top: 7px;
+        .page-item,.page-link{
+            background-color: $color3   ;
+            color: black;
+            font-weight: 900;
+            font-size: 1.2rem;
+            border: 0.1px solid $color5;
+            &:hover{
+                background-color: $color4;
+                transition:1s ease-in-out;
+            }
+        }
+    }
+} 
+
+/*------------------------------------------Queries---------------------------------------------*/
+
+@media (max-width: 470px){
+    .cartas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -84,7 +185,7 @@
 
 
 /*-----------------------------Contacto----------------------------------------*/
- .section_contacto{
+  .section_contacto{
     margin: 0;
     background-color: $color3;
     opacity: initial;
@@ -113,44 +214,7 @@
         background-color: $color3;
         transition: 0.5s ease-out;
     }
-} 
-/*---------------------------------Productos----------------------------------------*/
- .table{
-    margin: 20px;
-}
-.contenedor_table{
-    background-color: $color4;
-    align-content: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .productos_table{
-        border: 1px solid black;
-        border-radius: 5px;
-        align-content: center;
-    }
-    .cartas{
-        display: flex;
-        justify-content: space-around;
-        margin: 8px;
-        .card{
-            margin: 15px;
-            border: 3px solid grey;
-            border-radius: 5px;
-            .card-body a{
-                display: flex;
-                align-items:flex-end;
-                
-            }
-        }
-    }
-    
-}
-.navigation{
-    background-color: $color4;
-    display: flex;
-    justify-content: center;
-} 
+}  
 /*---------------------------- Marcas ----------------------------------------*/
 /* .section_marcas{
     display: flex;
