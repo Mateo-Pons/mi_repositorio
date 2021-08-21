@@ -111,8 +111,6 @@
         margin: auto;
         width: 80%;
         align-items: center;
-    .container{
-        background-color: $color1;
         .row{
         display: flex;
         flex-direction: column;
@@ -123,8 +121,7 @@
                 }
             }
         }
-    }   
-}
+    }       
 
 @media (max-width:645px){
     

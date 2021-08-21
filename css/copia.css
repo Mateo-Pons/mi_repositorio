@@ -297,38 +297,92 @@ nav {
 /*-----------------------------Contacto----------------------------------------*/
 .section_contacto {
   margin: 0;
-  background-color: #8d4925;
+  background-color: #582417;
   opacity: initial;
   text-align: center; }
   .section_contacto .titulo_contacto {
-    display: flex;
-    justify-content: center; }
+    text-align: center;
+    padding-top: 1.3rem; }
+    .section_contacto .titulo_contacto h2 {
+      font-weight: 900;
+      font-size: 2rem;
+      color: white; }
 
 #contacto {
   background-color: #c57d56;
   display: inline-block;
-  align-items: center;
-  border: 2px solid #2a0000;
-  margin: 20px; }
+  border: 1px solid #2a0000;
+  margin: 1rem; }
+  #contacto h2, #contacto h3 {
+    font-weight: 900;
+    font-size: 2.2rem; }
   #contacto li {
     list-style-type: none; }
+    #contacto li p {
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: white; }
+  #contacto a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.5rem; }
+  #contacto .inpu h1 {
+    color: white; }
+  #contacto .inpu .form-group {
+    margin: 0;
+    padding-bottom: 10px;
+    width: 60vw; }
 
 .btn-default {
   border: 1px solid black;
-  margin: 20px 0px 20px 0px;
-  width: 200px;
-  height: 50px; }
+  margin: 1rem;
+  width: 175px;
+  height: 40px;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-top: 0; }
   .btn-default:hover {
     background-color: #8d4925;
     transition: 0.5s ease-out; }
 
+/*------------------------------------------Queries---------------------------------------------*/
+@media (max-width: 700px) {
+  #contacto h2, #contacto h3 {
+    font-weight: 600;
+    font-size: 1.4rem; }
+  #contacto p {
+    font-size: 15px;
+    font-weight: 600; }
+  #contacto a {
+    font-weight: 600;
+    font-size: 1.3rem; } }
+
 /*---------------------------- Marcas ----------------------------------------*/
-/* .section_marcas{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: $color4;
-} */
+.section_marcas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: #c57d56; }
+  .section_marcas .card {
+    background: #8d4925;
+    margin: 1.2rem; }
+    .section_marcas .card h5 {
+      color: white;
+      background-color: #582417;
+      border-radius: 14px;
+      font-size: 1.4rem;
+      font-weight: 900; }
+    .section_marcas .card p {
+      font-size: 1.1rem;
+      font-weight: 900; }
+    .section_marcas .card a {
+      font-size: 1rem;
+      font-weight: 600; }
+    .section_marcas .card img {
+      background-color: white; }
+
 /*----------------------------- Log in ----------------------------------------*/
 /*
 .bg-dark{
@@ -447,15 +501,13 @@ nav {
     margin: auto;
     width: 80%;
     align-items: center; }
-    .footer .container {
-      background-color: #2a0000; }
-      .footer .container .row {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; }
-        .footer .container .row .footer-col {
-          margin-left: 2rem;
-          margin-bottom: 1rem; } }
+    .footer .row {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .footer .row .footer-col {
+        margin-left: 2rem;
+        margin-bottom: 1rem; } }
 
 * {
   margin: 0;
