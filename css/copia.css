@@ -384,33 +384,22 @@ nav {
       background-color: white; }
 
 /*----------------------------- Log in ----------------------------------------*/
-/*
-.bg-dark{
-    background-color: $color1 !important ;
-    font-family: 'Spartan', sans-serif;
-    font-weight: 600;
-    color: red;
-}
-.img-fluid{
-    border-radius: 25px;
-    height: 80px;
-    width: 150px;
-}
+.form_login {
+  background: #8d4925;
+  margin: 4rem;
+  padding: 1.5rem;
+  height: 400px; }
+  .form_login .btn {
+    width: 14rem;
+    height: 3.3rem; }
 
+/*------------------------------------------Queries---------------------------------------------*/
+@media (max-width: 600px) {
+  .form_login {
+    margin: 2rem;
+    padding: 1.1rem;
+    height: 425px; } }
 
-.carousel-indicators{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
-}
-.carousel-item{
-    width: 100%;
-    img{
-        height: 400px;
-        width: 300px;
-    }
-} */
 .footer {
   margin: 0;
   padding: 0;
@@ -523,6 +512,12 @@ body {
 .contenedor {
   width: 90%;
   margin: 0 auto; }
+
+.bg-dark {
+  background-color: #2a0000 !important;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 600;
+  color: white; }
 
 /*------------------------------------------Queries---------------------------------------------*/
 @media (max-width: 440px) {

@@ -14,6 +14,12 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+.bg-dark{
+    background-color: $color1 !important ;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+    color: white;
+}
 
 /*------------------------------------------Queries---------------------------------------------*/
 
