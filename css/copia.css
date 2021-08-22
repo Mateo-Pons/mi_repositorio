@@ -295,68 +295,68 @@ nav {
     margin: auto; } }
 
 /*-----------------------------Contacto----------------------------------------*/
-.section_contacto {
-  margin: 0;
-  background-color: #582417;
-  opacity: initial;
-  text-align: center; }
-  .section_contacto .titulo_contacto {
-    text-align: center;
-    padding-top: 1.3rem; }
-    .section_contacto .titulo_contacto h2 {
-      font-weight: 900;
-      font-size: 2rem;
-      color: white; }
-
-#contacto {
-  background-color: #c57d56;
-  display: inline-block;
-  border: 1px solid #2a0000;
-  margin: 1rem; }
-  #contacto h2, #contacto h3 {
-    font-weight: 900;
-    font-size: 2.2rem; }
-  #contacto li {
-    list-style-type: none; }
-    #contacto li p {
-      font-size: 2.2rem;
-      font-weight: 900;
-      color: white; }
-  #contacto a {
-    text-decoration: none;
-    font-weight: 900;
-    font-size: 1.5rem; }
-  #contacto .inpu h1 {
-    color: white; }
-  #contacto .inpu .form-group {
-    margin: 0;
-    padding-bottom: 10px;
-    width: 60vw; }
-
-.btn-default {
+.contact {
+  margin-top: 2rem;
   border: 1px solid black;
-  margin: 1rem;
-  width: 175px;
-  height: 40px;
-  color: black;
-  font-size: 1.5rem;
-  font-weight: 600;
-  padding-top: 0; }
-  .btn-default:hover {
-    background-color: #8d4925;
-    transition: 0.5s ease-out; }
+  display: flex;
+  background-color: #430d06; }
+  .contact form {
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px; }
+    .contact form h2 {
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      font-weight: 600; }
+    .contact form input, .contact form textarea {
+      width: 100%;
+      margin-bottom: 1.1rem;
+      padding: 7px;
+      box-sizing: border-box;
+      font-size: 1.3rem; }
+    .contact form textarea {
+      min-height: 90px;
+      max-height: 200px; }
+    .contact form .boton {
+      border: 1px solid black;
+      color: black;
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding: 20px; }
+      .contact form .boton:hover {
+        background-color: #ffb48a;
+        transition: 0.5s ease-out;
+        cursor: pointer;
+        color: white; }
+  .contact .telcontac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    font-weight: 600;
+    color: white;
+    font-size: 1.4rem; }
 
 /*------------------------------------------Queries---------------------------------------------*/
-@media (max-width: 700px) {
-  #contacto h2, #contacto h3 {
-    font-weight: 600;
-    font-size: 1.4rem; }
-  #contacto p {
-    font-size: 15px;
-    font-weight: 600; }
-  #contacto a {
-    font-weight: 600;
-    font-size: 1.3rem; } }
+@media (max-width: 470px) {
+  .contact {
+    display: flex;
+    flex-direction: column; }
+    .contact form {
+      width: 300px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      box-sizing: border-box;
+      border-radius: 7px; }
+    .contact .telcontac {
+      text-align: center; } }
 
 /*---------------------------- Marcas ----------------------------------------*/
 .section_marcas {
