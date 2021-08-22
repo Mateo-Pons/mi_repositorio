@@ -72,6 +72,17 @@
         margin: 10px auto;
     }
 }
+@media (max-width:430px){
+    .carousel-inner{
+        h5, p{
+        margin-top: 1rem;
+        color: white;
+        font-weight: 300;
+        font-size: 0.5rem;
+        }
+    }
+}
+
 
 /*---------------------------------Productos----------------------------------------*/
 .contenedor_table{
