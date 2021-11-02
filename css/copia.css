@@ -238,60 +238,46 @@ nav {
     font-size: 0.5rem; } }
 
 /*---------------------------------Productos----------------------------------------*/
-.contenedor_table {
-  margin-top: 2rem;
-  background-color: #c57d56;
-  align-content: center;
-  justify-content: center;
-  align-items: center; }
-  .contenedor_table .valores {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center; }
-    .contenedor_table .valores .table {
-      width: 60%; }
-  .contenedor_table .cartas {
-    background-color: #8d4925;
-    display: flex;
-    justify-content: space-around;
-    margin: 8px;
-    margin-bottom: 0; }
-    .contenedor_table .cartas .card {
-      margin: 15px;
-      background-color: #c57d56; }
-      .contenedor_table .cartas .card .card-title {
-        font-size: 1.5rem;
-        font-weight: 900;
-        background-color: #582417;
-        border-radius: 10%;
-        color: white; }
-      .contenedor_table .cartas .card .card-text {
-        font-size: 1.1rem;
-        font-weight: 600; }
-      .contenedor_table .cartas .card .btn {
-        background-color: #ffb48a;
-        color: black;
-        font-weight: 900;
-        font-size: 1.2rem; }
-        .contenedor_table .cartas .card .btn:hover {
-          background-color: #06e992; }
-
-.navigation {
-  background-color: #c57d56;
+#contenedor-productos {
+  box-sizing: border-box;
   display: flex;
-  justify-content: center; }
-  .navigation .pagination {
-    margin-top: 7px; }
-    .navigation .pagination .page-item, .navigation .pagination .page-link {
-      background-color: #8d4925;
-      color: black;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  #contenedor-productos .card {
+    margin: 20px;
+    background-color: #c57d56; }
+    #contenedor-productos .card h5 {
+      font-size: 1.3rem;
       font-weight: 900;
-      font-size: 1.2rem;
-      border: 0.1px solid #ffb48a; }
-      .navigation .pagination .page-item:hover, .navigation .pagination .page-link:hover {
-        background-color: #c57d56;
-        transition: 1s ease-in-out; }
+      font-family: "Roboto", sans-Serif; }
+
+.modal-header {
+  background-color: #582417; }
+
+.modal-title {
+  color: white; }
+
+.modal-body {
+  background-color: #c57d56; }
+
+.contenedor-carrito {
+  display: flex;
+  justify-content: space-between; }
+
+.precioProducto {
+  background-color: #430d06;
+  color: white;
+  text-align: center; }
+
+p {
+  margin: 0; }
+
+.modal-footer {
+  background-color: #0474b4; }
+
+.boton {
+  display: flex;
+  justify-content: space-between; }
 
 /*------------------------------------------Queries---------------------------------------------*/
 @media (max-width: 470px) {
@@ -333,6 +319,7 @@ nav {
     .contact form .boton {
       border: 1px solid black;
       color: black;
+      display: flex;
       font-size: 1.5rem;
       font-weight: 600;
       padding: 20px; }

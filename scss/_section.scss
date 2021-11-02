@@ -85,75 +85,50 @@
 
 
 /*---------------------------------Productos----------------------------------------*/
-.contenedor_table{
-    margin-top: 2rem;
-    background-color: $color4;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    .valores{
-        width: 100%;
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        .table{
-        width: 60%;
-        }
-    }
 
-    .cartas{
-        background-color: $color3;
-        display: flex;
-        justify-content: space-around;
-        margin: 8px;
-        margin-bottom: 0;
-        .card{
-            margin: 15px;
-            background-color: $color4;
-            .card-title{
-                font-size: 1.5rem;
-                font-weight: 900;
-                background-color: $color2;
-                border-radius: 10%;
-                color: white;
-            }
-            .card-text{
-                font-size: 1.1rem;
-                font-weight: 600;
-            }
-            .btn{
-            background-color: $color5;
-            color: black;
-            font-weight: 900;
-            font-size: 1.2rem;
-            &:hover{
-                background-color: rgb(6, 233, 146);
-                    }
-                }         
-            }
-        }   
-    }
-    
-.navigation{
-    background-color: $color4;
+#contenedor-productos{
+    box-sizing: border-box;
     display: flex;
-    justify-content: center;
-    .pagination{
-        margin-top: 7px;
-        .page-item,.page-link{
-            background-color: $color3   ;
-            color: black;
+    flex-direction:row;
+    flex-wrap: wrap;
+    .card{
+        margin: 20px;
+        background-color: $color4;
+        h5{
+            font-size: 1.3rem;
             font-weight: 900;
-            font-size: 1.2rem;
-            border: 0.1px solid $color5;
-            &:hover{
-                background-color: $color4;
-                transition:1s ease-in-out;
-            }
+            font-family: $font;
         }
     }
-} 
-
+}
+.modal-header{
+    background-color: $color2;
+}
+.modal-title{
+    color: white;
+}
+.modal-body{
+    background-color: $color4;
+}
+.contenedor-carrito{
+    display: flex;
+    justify-content: space-between;
+}
+.precioProducto{
+    background-color: $color6;
+    color: white;
+    text-align:center;
+}
+p{
+    margin:0;
+}
+.modal-footer{
+    background-color: rgb(4, 116, 180);
+}
+.boton{
+    display: flex;
+    justify-content: space-between;
+}
 /*------------------------------------------Queries---------------------------------------------*/
 
 @media (max-width: 470px){
@@ -200,6 +175,7 @@
         .boton{
             border: 1px solid black;    
             color: black;
+            display: flex;
             font-size: 1.5rem;
             font-weight: 600;
             padding: 20px;
