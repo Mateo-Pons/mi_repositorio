@@ -128,6 +128,17 @@ p{
 .boton{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border: none;
+    background: transparent;
+    span{
+        color:white
+    }
+}
+.botonEliminar{
+    border: none;
+    background: transparent;
+    color: red;
 }
 .card{
     height: 400px;

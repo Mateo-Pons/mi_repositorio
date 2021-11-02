@@ -97,7 +97,7 @@ function agregarAlCarrito(id) {
                 <h5 class="producto-titutlo">${productoAgregar.nombre}</h5>
                 <p>Precio:${productoAgregar.precio}</p>
                 <p id=cantidad${productoAgregar.id}>Cantidad:${productoAgregar.cantidad}</p>
-                <button id=eliminar${productoAgregar.id}><i class="fas fa-trash-alt"></i></button>
+                <button class="botonEliminar" id=eliminar${productoAgregar.id}><i class="fas fa-trash-alt"></i></button>
               </div>
         `
 
