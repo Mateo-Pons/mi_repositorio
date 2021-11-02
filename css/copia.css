@@ -279,6 +279,19 @@ p {
   display: flex;
   justify-content: space-between; }
 
+.card {
+  height: 400px; }
+
+.card img {
+  height: 200px; }
+
+.card-title {
+  background-color: #8d4925;
+  border-radius: 6px; }
+
+.card-text {
+  font-family: "Roboto", sans-Serif; }
+
 /*------------------------------------------Queries---------------------------------------------*/
 @media (max-width: 470px) {
   .cartas {

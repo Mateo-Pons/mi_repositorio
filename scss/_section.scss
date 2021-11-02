@@ -129,6 +129,19 @@ p{
     display: flex;
     justify-content: space-between;
 }
+.card{
+    height: 400px;
+}
+.card img{
+    height: 200px;
+}
+.card-title{
+    background-color: $color3;
+    border-radius: 6px;
+}
+.card-text{
+    font-family: $font;
+}
 /*------------------------------------------Queries---------------------------------------------*/
 
 @media (max-width: 470px){

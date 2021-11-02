@@ -53,7 +53,7 @@ function mostrarProductos(array) {
             <div class="card-body">
             <h5 class="card-title">${producto.nombre}</h5>
             <p class="card-text">${producto.desc}</p>
-            <a href="#" class="btn btn-primary" id=boton${producto.id}>Agregar</a>
+            <a href="#" class="btn" id=boton${producto.id}>Agregar</a>
             </div>
         </div>
         `
