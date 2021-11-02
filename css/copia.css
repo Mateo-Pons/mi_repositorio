@@ -292,6 +292,9 @@ p {
 .card-text {
   font-family: "Roboto", sans-Serif; }
 
+.icono {
+  color: #ffb48a; }
+
 /*------------------------------------------Queries---------------------------------------------*/
 @media (max-width: 470px) {
   .cartas {
